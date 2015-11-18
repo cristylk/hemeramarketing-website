@@ -1,0 +1,11 @@
+h1 { 
+    font-family: 'Parisish'! important;
+    font-size: 2em;
+}
+
+.entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6 {
+    font-family: Parisish,Helvetica,sans-serif;
+    line-height: 1.5em;
+    margin: 0 0 0.5em;
+    color: #f63584;
+}

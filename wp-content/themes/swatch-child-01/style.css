@@ -1,0 +1,110 @@
+/*
+Theme Name: swatch-child
+Theme URI: www.hemeramarketing.com
+Description: Author:Cristy Koebler
+Author: Cristy Koebler
+Author URI: www.hemeramarketing.com
+Template: swatch
+Version: 1.0
+*/
+
+
+@import url('../swatch/style.css');
+
+
+
+@font-face {
+	font-family: 'Parisish';
+	src: url('/swatch-child-01/includes/fonts/parisish-webfont.eot');
+	src: url('/swatch-child-01/includes/fonts/parisish-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('/swatch-child-01/includes/fonts/parisish-webfont.ttf') format('truetype'), 
+             url('/swatch-child-01/includes/fonts/parisish-webfont.svg#Parisish') format('svg'),
+	     url('/swatch-child-01/includes/fonts/parisish-webfont.woff') format('woff');
+	src: local('☺︎'), 
+             url('parisish-webfont.woff') format('woff');
+             
+	font-weight: normal;
+	font-style: normal;
+}
+
+#wrapper {
+    background: url("images/wrapper-bg-colourstrip.png") repeat-x scroll left top rgba(0, 0, 0, 0);
+    padding-top: 10px;
+
+}
+
+#header {
+    background: url("images/bg-ripple-header.png"); repeat scroll left bottom rgba(0, 0, 0, 0);
+    margin: 0 0 15px;
+    position: relative;
+    z-index: 999;
+}
+
+#navigation .nav li a {
+}
+.nav a {
+    color: #2632e6;
+    display: block;
+    line-height: 22px;
+    padding: 7px 10px;
+    position: relative;
+    text-decoration: none;
+    text-shadow:none;
+    z-index: 100;
+    box-shadow: 5px 5px 5px lightgray;
+    border-radius: 5px;
+}
+
+.nav a:hover, .nav li.current_page_item a, .nav li.current_page_parent a, .nav li.current-menu-ancestor a, .nav li.current-cat a, .nav li.current-menu-item a, .nav li.sfHover {
+    background: none repeat scroll 0 0 #54ccc9;
+    border-radius: 5px;
+    color: #f63584;
+    background: #54ccc9;
+}
+
+#content {
+    padding: 0 0 0.5em;
+}
+
+#footer {
+    background: url("images/bg-ripple-footer.png") repeat scroll left top rgba(0, 0, 0, 0);
+    color: #999999;
+    padding: 30px 0 20px;
+}
+
+
+h1 { 
+    font-family: 'Parisish'!important;
+    font-size: 2em;
+}
+
+.entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6 {
+    font-family: Parisish,Helvetica,sans-serif;
+    line-height: 1.5em;
+    margin: 0 0 0.5em;
+    color: #f63584;
+}
+
+p {
+    font-size:16px;
+}
+
+.entry, .entry p {
+    font: 16px/1.5em Helvetica,Arial,sans-serif;
+}
+
+#featured-slider {
+    background: url("images/bg-featured.png") repeat scroll left top #CCCCCC;
+    padding: 35px 0 10px;
+    position: relative;
+}
+
+img.thumbnail {
+    background: none repeat scroll 0 0 #FFFFFF;
+
+}
+.entry img {
+    max-width: 900px;
+border: none;
+}
+
