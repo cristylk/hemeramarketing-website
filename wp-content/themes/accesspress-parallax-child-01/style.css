@@ -92,6 +92,11 @@ Footer Section
 	background: #39B0EC;
 }
 
+.copy-right{
+	float: none;
+        text-align: center;
+}
+
 /*--------------------------------------------------------------
 Call to Action Section
 --------------------------------------------------------------*/
