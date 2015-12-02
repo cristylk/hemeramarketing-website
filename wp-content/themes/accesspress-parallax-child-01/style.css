@@ -79,6 +79,16 @@ a {
 }
 
 /*--------------------------------------------------------------
+About Section
+--------------------------------------------------------------*/
+#name {
+font-family: 'Give You Glory', cursive;
+color: #f63584;
+text-align: center;
+font-size: xx-large;
+}
+
+/*--------------------------------------------------------------
 Portfolio Section
 --------------------------------------------------------------*/
 .portfolio-list .portfolio-overlay span{
@@ -102,4 +112,13 @@ Call to Action Section
 --------------------------------------------------------------*/
 .call-to-action{
 	text-align: left;
+}
+
+/*--------------------------------------------------------------
+Contact Section
+--------------------------------------------------------------*/
+#contact{
+font-family: 'Oxygen', sans-serif;
+font-size: 20px;
+padding: 20px;
 }
