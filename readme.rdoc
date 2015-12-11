@@ -1,0 +1,7 @@
+Hemera Marketing website backup
+
+This includes the necessary files to run Hemera Marketing's website on Wordpress.
+
+Updates: 
+
+12/11/15: Added 404 page
